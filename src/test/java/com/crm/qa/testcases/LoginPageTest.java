@@ -40,7 +40,13 @@ public class LoginPageTest extends TestBase{
 		homePage = loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	
-	
+	@Test(priority=4)
+	public void test()
+	{
+		System.out.print("hello");
+		System.out.print("hello");
+		System.out.print("hello");
+	}
 	
 	@AfterMethod
 	public void tearDown(){
