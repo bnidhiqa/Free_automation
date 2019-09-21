@@ -47,7 +47,13 @@ public class LoginPageTest extends TestBase{
 		System.out.print("hello");
 		System.out.print("hello");
 	}
-	
+	@Test(priority=5)
+	public void testtest()
+	{
+		System.out.print("hello");
+		System.out.print("hello");
+		System.out.print("hello");
+	}
 	@AfterMethod
 	public void tearDown(){
 		driver.quit();
